@@ -1,0 +1,40 @@
+#nombre {
+    margin-left: 89px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+#apellido {
+    margin-left: 89px;
+    margin-bottom: 5px;
+}
+
+#email {
+    margin-left: 103px;
+    margin-bottom: 5px;
+}
+
+#edad {
+    margin-left: 112px;
+    margin-bottom: 5px;
+    min-width: 190px;
+}
+
+#fnac {
+    margin-left: 1px;
+    margin-bottom: 5px;
+    min-width: 172px;
+}
+
+#consulta {
+    margin-left: 86px;
+    margin-bottom: 5px;
+}
+
+#enviar {
+    height: 30px;
+    margin-left: 235px;
+    line-height: 10px;
+    border: none;
+    width: 80px;
+}

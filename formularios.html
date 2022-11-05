@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estiloFormulario.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form method="post" action="#">
+        <ul>
+            <li>Nombre: <input type="text" name="nombre" id="nombre"  required placeholder="Ingrese el nombre"></li> <!---->
+            <li>Apellido: <input type="text" name="apellido" id="apellido" required placeholder="Ingrese apellido"></li>
+            <li>e-mail: <input type="email" name="email" id="email" placeholder="Ingrese email"></li>
+            <li>Edad: <input type="number" name="edad" id="edad" min="16" max="110" placeholder="Ingrese edad"></li>
+            <li>Fecha de nacimiento: <input type="date" name="fechaNac" id="fnac" placeholder="Ingrese fecha nac"></li>
+            <li>Consulta: <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea></li>
+            <div class="container">
+                <button id="enviar" type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </ul>
+    </form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script>
+</body>
+</html>
