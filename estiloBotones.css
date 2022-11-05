@@ -1,0 +1,27 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a { /* El elemento a es un elemento en linea y las propiedades anteriores solo aplican a elementos en bloque por lo cual todas las propiedades previamente definidas se anulan. Para solucionarlo debemos convertilo en un elemento en bloque con la propiedad display block*/
+    width: 200px;
+    height: 50px;
+    background-color: #FF6633;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px; /* Para centrar el texto verticalmente se le da al anto de linea el mismo valor que a la altura del boton */
+    font-weight: bold;
+}
+
+ul li a:hover {
+    background-color: red;
+    color: black;
+}
