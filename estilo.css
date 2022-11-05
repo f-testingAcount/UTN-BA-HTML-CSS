@@ -1,0 +1,90 @@
+header, section, footer {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {
+    height: 80px;
+    background-color: bisque;
+}
+
+#marca {
+    width: 200px;
+    height: 80px;
+    background-color: chartreuse;
+    float: left;
+}
+
+#botonesHeader {
+    width: 300px;
+    height: 80px;
+    background-color: aqua;    
+    float: right;
+}
+
+section {
+    height: 800px;
+     background-color: darkcyan;
+}
+
+#banner {
+    height: 300px;
+    background-color: darksalmon;
+}
+
+#txt_banner {
+    height: 125px;
+    width: 250px;
+    background-color: antiquewhite;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#img1 {
+    height: 350px;
+    width: 300px;
+    background-color: orange;
+    float: left;
+}
+
+#txt {
+    height: 350px;
+    width: 360px;
+    background-color: lightgreen;
+    float: left;
+}
+
+#img2 {
+    height: 350px;
+    width: 300px;
+    background-color: coral;
+    float: left;
+}
+
+#articulo {
+    height: 150px;
+    background-color: pink;
+    clear: left;
+}
+
+
+footer {
+    height: 150px;
+    background-color: blueviolet;
+}
+
+#datos {
+    height: 150px;
+    width: 250px;
+    background-color: gold;
+    float: left;
+}
+
+#redes {
+    height: 50px;
+    width: 350px;
+    background-color: lightgreen;
+    float: right;
+}
